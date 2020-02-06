@@ -19,24 +19,32 @@
     <ImageView
         android:id="@+id/character_image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="309dp"
         android:contentDescription="@string/Start_image"
-        app:srcCompat="@drawable/start" />
+        app:srcCompat="@drawable/start_img" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_btn" />
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/retry_btn" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/bio_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:text="@string/bio_text" />
     </ScrollView>
 
-    <TextView
-        android:id="@+id/bio_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/bio_text" />
 </LinearLayout>
