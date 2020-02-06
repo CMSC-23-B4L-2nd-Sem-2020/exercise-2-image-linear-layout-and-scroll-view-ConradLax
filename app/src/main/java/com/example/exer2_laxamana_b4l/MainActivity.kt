@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val randomInt = (1..6).random()
+        val randomInt = (1..10).random()
 
         val drawableResource = when (randomInt) {
             1 -> R.drawable.kanbaru
