@@ -16,4 +16,12 @@
         <item name="android:textAlignment">center</item>
     </style>
 
+    <style name="landscapeStyle">
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
 </resources>
